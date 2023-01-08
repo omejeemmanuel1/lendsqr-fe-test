@@ -21,8 +21,8 @@ const UserDetail = () => {
         <h2 className="font-bold">User Details </h2>
       </div>
       {userDetail && (
-        <div className="p-6">
-          <div className="flex m-10 w-auto p-6 h-[200px] bg-[white] shadow">
+        <div className="md:p-6">
+          <div className="flex md:m-10 md:w-auto  p-6 md:h-[200px] bg-[white] shadow">
             <img
               src={userDetail.profile.avatar}
               alt={userDetail.profile.firstName}
@@ -36,48 +36,48 @@ const UserDetail = () => {
             </div>
             <h2 className="text-xl pt-3 ml-10">₦{userDetail.accountBalance}</h2>
           </div>
-          <div className="p-6 m-10 w-auto bg-white border-2 border-blue-800 ">
+          <div className="p-6 md:m-10 m-4 md:w-auto bg-white border-2 border-blue-800 ">
             <div className="text-2xl pb-10">
               <h2>Personal Information</h2>
             </div>
             <div className="flex text-left">
-              <div className="mr-24">
+              <div className="md:mr-24">
                 <p className=" text-sm">FULL NAME</p>
                 <h2 className="pr-2 font-bold">
                   <span>{userDetail.profile.firstName} </span>
                   <span>{userDetail.profile.lastName}</span>
                 </h2>
               </div>
-              <div className="mr-24">
+              <div className="md:mr-24">
                 <p className="text-sm">PHONE NUMBER</p>
                 <h2 className="font-bold">{userDetail.profile.phoneNumber}</h2>
               </div>
-              <div className="mr-24">
+              <div className="md:mr-24">
                 <p className="text-sm">EMAIL</p>
                 <h2 className="font-bold">{userDetail.email}</h2>
               </div>
-              <div className="mr-24">
+              <div className="md:mr-24">
                 <p className="text-sm">BVN</p>
                 <h2 className="font-bold">{userDetail.profile.bvn}</h2>
               </div>
               <div>
-                <p className="text-sm">GENDER</p>
+                <p className="md:text-sm">GENDER</p>
                 <h2 className="font-bold">{userDetail.profile.gender}</h2>
               </div>
             </div>
 
             <div className="flex pt-6 text-left">
-              <div className="mr-16">
+              <div className="md:mr-16">
                 <p className="text-sm">LEVEL OF EDUCATION</p>
                 <h2 className="font-bold">{userDetail.education.level}</h2>
               </div>
-              <div className="mr-28">
+              <div className="md:mr-28">
                 <p className="text-sm">EMPLOYMENT STATUS</p>
                 <h2 className="font-bold">
                   {userDetail.education.employmentStatus}
                 </h2>
               </div>
-              <div className="mr-[202px]">
+              <div className="md:mr-[202px]">
                 <p className="text-sm">SECTOR OF EDUCATION</p>
                 <h2 className="font-bold">{userDetail.education.sector}</h2>
               </div>

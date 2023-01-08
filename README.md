@@ -7,3 +7,9 @@
 - User details page
 
 ## The user pages should pull data from a mock api with 500 records
+
+## Stacks used
+
+- React
+- Tailwind
+- Bootstrap
