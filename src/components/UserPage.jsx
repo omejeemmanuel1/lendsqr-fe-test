@@ -149,6 +149,14 @@ const UserPage = ({data}) => {
                       <option value="">good</option>
                     </select>
                   </div>
+                  <div className="pt-4">
+                    <button className="border-2 border-gray-600 p-2 w-20 rounded mr-20">
+                      Reset
+                    </button>
+                    <button className="bg-[#39CDCC] p-2 w-20 rounded">
+                      Filter
+                    </button>
+                  </div>
                 </div>
               </form>
             </div>
