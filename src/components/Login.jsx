@@ -78,12 +78,15 @@ const Login = () => {
             <a href="./Login.jsx">forget password?</a>
           </p>
         </div>
-        <button
-          type="submit"
-          className="w-full bg-[#39CDCC] text-[#fff] p-4 rounded"
-        >
-          <Link to="./userpage">Login</Link>
-        </button>
+
+        <Link to="./userpage">
+          <button
+            type="submit"
+            className="w-full bg-[#39CDCC] text-[#fff] p-4 rounded"
+          >
+            Login
+          </button>
+        </Link>
       </form>
     </div>
   );
