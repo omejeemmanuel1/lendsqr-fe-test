@@ -75,7 +75,7 @@ const Login = () => {
         </div>
         <div className="pb-4 text-[#39CDCC]">
           <p>
-            <a href="#">forget password?</a>
+            <a href="./Login.jsx">forget password?</a>
           </p>
         </div>
         <button
